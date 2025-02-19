@@ -68,20 +68,20 @@ const SignatureGenerator = () => {
     const textX = 1285;
 
     // Name
-    ctx.font = 'bold 74px Canva Sans';
-    ctx.fillText(name, textX, 95);
+    ctx.font = '54px Canva Sans';
+    ctx.fillText(name, textX, 128);
 
     // Position
-    ctx.font = '58px Arial';
-    ctx.fillText(position, textX, 180);
+    ctx.font = '48px Canva Sans';
+    ctx.fillText(position, textX, 210);
 
     // Phone
     ctx.font = '38px Arial';
-    ctx.fillText(phone, textX, 255);
+    ctx.fillText(phone, textX, 285);
 
     // Email
     ctx.font = '38px Arial';
-    ctx.fillText(email, textX, 320);
+    ctx.fillText(email, textX, 340);
 
     // Website
     ctx.font = '38px Arial';
